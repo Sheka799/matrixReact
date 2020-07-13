@@ -1,0 +1,46 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.input-text {
+  height: 22px;
+  border: 1px solid black;
+}
+
+.input-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-button {
+  border: 1px solid black;
+  height: 13px;
+  vertical-align: middle;
+  outline: none;
+}
+.input-minus {
+  transform: rotate(180deg);
+  border-right: none;
+  border-bottom: 0.5px solid black;
+}
+.input-plus {
+  border-left: none;
+  border-bottom: 0.5px solid black;
+}
+
+.button {
+  margin-left: 20px;
+}
+
+.wrap-matrix {
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
